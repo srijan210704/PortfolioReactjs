@@ -1,0 +1,99 @@
+#about {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.aboutTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutSection {
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.aboutSection h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+}
+
+.educationItem {
+    margin-bottom: 20px;
+}
+
+.educationTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.educationYear {
+    margin-top: 5px;
+    color: yellow;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    /* Added to align items horizontally */
+    justify-content: center;
+    /* Added to center the items */
+    flex-wrap: wrap;
+    /* Added to wrap items if they overflow */
+}
+
+ul li {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    /* Added to add space between items */
+}
+
+ul li:last-child {
+    margin-right: 0;
+    /* Remove the margin-right for the last item */
+}
+
+.certificationBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.certificationBtn:hover {
+    transform: scale(1.05);
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .aboutContent {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    ul {
+        flex-direction: column;
+        /* Change to vertical alignment on small screens */
+    }
+    ul li {
+        margin-bottom: 10px;
+        /* Keep vertical spacing */
+        margin-right: 0;
+        /* Remove horizontal spacing */
+    }
+}
