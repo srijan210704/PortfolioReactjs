@@ -11,7 +11,7 @@ const About = () => {
           <div className="educationItem">
             <div className="educationTitle">
               <strong>Bachelor of Science in Computer Science with Specialization in Cloud Computing</strong>
-              <span className="educationYear">SRM University, Kattankulathur, 2022-2026</span>
+              <span className="educationYear">University, Kattankulathur, 2022-2026</span>
             </div>
           </div>
           <div className="educationItem">
